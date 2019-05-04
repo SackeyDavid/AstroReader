@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="4.0" minHeight="0.0" minWidth="0.0" prefHeight="197.0" prefWidth="295.0">
+         <children>
+            <AnchorPane layoutX="1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="198.0" prefWidth="296.0">
+               <children>
+                  <Button fx:id="mTorqAchart" layoutX="101.0" layoutY="40.0" mnemonicParsing="false" onAction="#mTorqAchart" prefHeight="30.0" prefWidth="40.0" text="I">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="mTorqA" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="mTorqEchart" layoutX="147.0" layoutY="40.0" mnemonicParsing="false" onAction="#mTorqEchart" prefHeight="30.0" prefWidth="40.0" text="J" textOverrun="CLIP">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="mTorqE" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="mPosAchart" layoutX="199.0" layoutY="40.0" mnemonicParsing="false" onAction="#mPosAchart" prefHeight="30.0" prefWidth="40.0" text="K">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="mPosA" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="posActAchart" layoutX="4.0" layoutY="1.0" mnemonicParsing="false" onAction="#posActAchart" prefHeight="30.0" prefWidth="40.0" text="A" textOverrun="CLIP">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="posActA" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="posReqEchart" layoutX="52.0" layoutY="1.0" mnemonicParsing="false" onAction="#posReqEchart" prefHeight="30.0" prefWidth="40.0" text="B" textOverrun="CLIP">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="posReqE" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="posDesEchart" layoutX="98.0" layoutY="1.0" mnemonicParsing="false" onAction="#posDesEchart" prefHeight="30.0" prefWidth="40.0" text="C" textOverrun="CLIP">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="posDesE" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="posActEchart" layoutX="148.0" layoutY="1.0" mnemonicParsing="false" onAction="#posActEchart" prefHeight="30.0" prefWidth="40.0" text="D" textOverrun="CLIP">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="posActE" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="mVelAchart" layoutX="200.0" layoutY="1.0" mnemonicParsing="false" onAction="#mVelAchart" prefHeight="30.0" prefWidth="40.0" text="E" textOverrun="CLIP">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="mVelA" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="mReqEchart" layoutX="51.0" layoutY="40.0" mnemonicParsing="false" onAction="#mReqEchart" prefHeight="30.0" prefWidth="40.0" text="H">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="mReqE" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="mVelEchart" layoutX="4.0" layoutY="40.0" mnemonicParsing="false" onAction="#mVelEchart" prefHeight="30.0" prefWidth="40.0" text="G" textOverrun="CLIP">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="mVelE" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="supply5Vchart" layoutX="4.0" layoutY="79.0" mnemonicParsing="false" onAction="#supply5Vchart" prefHeight="30.0" prefWidth="40.0" text="M" textOverrun="CLIP">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="supply5V" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="dcBusAchart" layoutX="50.0" layoutY="79.0" mnemonicParsing="false" onAction="#dcBusAchart" prefHeight="30.0" prefWidth="40.0" text="N">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="dcBusA" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="dcBusEchart" layoutX="99.0" layoutY="79.0" mnemonicParsing="false" onAction="#dcBusEchart" prefHeight="30.0" prefWidth="40.0" text="O">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="dcBusE" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="debug0chart" layoutX="146.0" layoutY="79.0" mnemonicParsing="false" onAction="#debug0chart" prefHeight="30.0" prefWidth="40.0" text="P">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="debug0" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="debug1chart" layoutX="198.0" layoutY="79.0" mnemonicParsing="false" onAction="#debug1chart" prefHeight="30.0" prefWidth="40.0" text="Q">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="debug1" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="debug3chart" layoutX="5.0" layoutY="119.0" mnemonicParsing="false" onAction="#debug3chart" prefHeight="30.0" prefWidth="40.0" text="S">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="debug3" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="debug4chart" layoutX="50.0" layoutY="119.0" mnemonicParsing="false" onAction="#debug4chart" prefHeight="30.0" prefWidth="40.0" text="T">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="debug4" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="ctrl1Achart" layoutX="96.0" layoutY="119.0" mnemonicParsing="false" onAction="#ctrl1Achart" prefHeight="30.0" prefWidth="40.0" text="U">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="ctrl1A" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="ctrl1Echart" layoutX="146.0" layoutY="119.0" mnemonicParsing="false" onAction="#ctrl1Echart" prefHeight="30.0" prefWidth="40.0" text="V">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="ctrl1E" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="ctrl2Achart" layoutX="198.0" layoutY="119.0" mnemonicParsing="false" onAction="#ctrl2Achart" prefHeight="30.0" prefWidth="40.0" text="W" textOverrun="CLIP">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="ctrl2A" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="ctrl3Achart" layoutX="5.0" layoutY="158.0" mnemonicParsing="false" onAction="#ctrl3Achart" prefHeight="30.0" prefWidth="40.0" text="Y">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="ctrl3A" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="ctrl3Echart" layoutX="50.0" layoutY="158.0" mnemonicParsing="false" onAction="#ctrl3Echart" prefHeight="30.0" prefWidth="40.0" text="Z">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="ctrl3E" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="ctrl4Achart" layoutX="96.0" layoutY="158.0" mnemonicParsing="false" onAction="#ctrl4Achart" prefHeight="30.0" prefWidth="40.0" text="\@" textOverrun="CLIP">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="ctrl4A" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="ctrl4Echart" layoutX="146.0" layoutY="158.0" mnemonicParsing="false" onAction="#ctrl4Echart" prefHeight="30.0" prefWidth="40.0" text="\$">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="ctrl4E" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="ctrl5Achart" layoutX="198.0" layoutY="158.0" mnemonicParsing="false" onAction="#ctrl5Achart" prefHeight="30.0" prefWidth="40.0" text="#">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="ctrl5A" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="mReqAchart" layoutX="250.0" layoutY="1.0" mnemonicParsing="false" onAction="#mReqAchart" prefHeight="30.0" prefWidth="40.0" text="F" textOverrun="CLIP">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="mReqA" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="mPosEchart" layoutX="249.0" layoutY="40.0" mnemonicParsing="false" onAction="#mPosEchart" prefHeight="30.0" prefWidth="40.0" text="L">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="mPosE" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="debug2chart" layoutX="249.0" layoutY="79.0" mnemonicParsing="false" onAction="#debug2chart" prefHeight="30.0" prefWidth="40.0" text="R">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="debug2" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="ctrl2Echart" layoutX="249.0" layoutY="119.0" mnemonicParsing="false" onAction="#ctrl2Echart" prefHeight="30.0" prefWidth="40.0" text="X">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="ctrl2E" />
+                     </tooltip>
+                  </Button>
+                  <Button fx:id="ctrl5Echart" layoutX="249.0" layoutY="158.0" mnemonicParsing="false" onAction="#ctrl5Echart" prefHeight="30.0" prefWidth="40.0" text="*">
+                     <padding>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                     </padding>
+                     <tooltip>
+                        <Tooltip styleClass="ttip" text="ctrl5E" />
+                     </tooltip>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

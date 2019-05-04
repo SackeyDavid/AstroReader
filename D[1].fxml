@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane fx:id="anchorpane3" minHeight="0.0" minWidth="0.0" prefHeight="1000.0" prefWidth="600.0">
+         <children>
+            <Label fx:id="positioninformation" layoutX="14.0" layoutY="14.0" text="POSITION INFORMATION" />
+            <TextField fx:id="onText" layoutX="65.0" layoutY="37.0" prefHeight="25.0" prefWidth="60.0" />
+            <Label fx:id="at" layoutX="133.0" layoutY="41.0" text="of" />
+            <TextField fx:id="size" layoutX="150.0" layoutY="37.0" prefHeight="25.0" prefWidth="50.0" />
+            <Label fx:id="on" layoutX="14.0" layoutY="41.0" text="Record" />
+            <Pane fx:id="brief" layoutX="13.0" layoutY="71.0" prefHeight="385.0" prefWidth="576.0" />
+            <Label fx:id="speeddetails" layoutX="12.0" layoutY="472.0" text="SPEED DETAILS" />
+            <Pane fx:id="stats" layoutX="13.0" layoutY="515.0" prefHeight="385.0" prefWidth="576.0" />
+         </children>
+      </AnchorPane>
+      <Label fx:id="processingcommand" layoutX="21.0" layoutY="913.0" prefHeight="17.0" prefWidth="161.0" text="PROCESSING COMMANDS" />
+      <RadioButton fx:id="seedetailspdf" layoutX="14.0" layoutY="938.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="110.0" text="see details pdf" />
+      <Button fx:id="next" layoutX="14.0" layoutY="961.0" mnemonicParsing="false" prefHeight="14.0" prefWidth="48.0" text="Next" />
+      <Button fx:id="previous" layoutX="193.0" layoutY="961.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="61.0" text="Previous" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="222.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="197.0" prefWidth="600.0">
+         <children>
+            <VBox fx:id="vbox1" prefHeight="195.0" prefWidth="66.0">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="69.0" styleClass="vbox" text="         1-10" textAlignment="CENTER" textFill="#dd1717" />
+                  <CheckBox fx:id="upSlowCB" mnemonicParsing="false" onAction="#upSlowCB" text="upslow" />
+                  <CheckBox fx:id="upFastCB" mnemonicParsing="false" onAction="#upFastCB" text="upfast" />
+                  <CheckBox fx:id="dnSlowCB" mnemonicParsing="false" onAction="#dnSlowCB" text="dnslow" />
+                  <CheckBox fx:id="dnFastCB" mnemonicParsing="false" onAction="#dnFastCB" text="dnfast" />
+                  <CheckBox fx:id="rtSlowCB" mnemonicParsing="false" onAction="#rtSlowCB" text="rtslow" />
+                  <CheckBox fx:id="rtFastCB" mnemonicParsing="false" onAction="#rtFastCB" text="rtfast" />
+                  <CheckBox fx:id="ltSlowCB" mnemonicParsing="false" onAction="#ltSlowCB" text="ltslow" />
+                  <CheckBox fx:id="ltFastCB" mnemonicParsing="false" onAction="#ltFastCB" text="ltfast" />
+                  <CheckBox fx:id="feedAccCB" mnemonicParsing="false" onAction="#feedAccCB" text="feedAcc" />
+                  <CheckBox fx:id="stowCB" mnemonicParsing="false" onAction="#stowCB" text="stow" />
+               </children>
+            </VBox>
+            <VBox fx:id="vbox2" prefHeight="195.0" prefWidth="76.0">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="78.0" text="         11-20" textFill="#dd1717" />
+                  <CheckBox fx:id="remoteCB" mnemonicParsing="false" onAction="#remoteCB" text="remote" />
+                  <CheckBox fx:id="localCB" mnemonicParsing="false" onAction="#localCB" text="local" />
+                  <CheckBox fx:id="VtripE380CB" mnemonicParsing="false" onAction="#VtripE380CB" text="380VtripE" />
+                  <CheckBox fx:id="brkRoffECB" mnemonicParsing="false" onAction="#brkRoffECB" text="brkRoffE" />
+                  <CheckBox fx:id="VonE24CB" mnemonicParsing="false" onAction="#VonE24CB" text="24VonE" />
+                  <CheckBox fx:id="Voff380CB" mnemonicParsing="false" onAction="#Voff380CB" text="380Voff" />
+                  <CheckBox fx:id="VtripA380CB" mnemonicParsing="false" onAction="#VtripA380CB" text="380VtripA" />
+                  <CheckBox fx:id="brkRoffACB" mnemonicParsing="false" onAction="#brkRoffACB" text="brkRoffA" />
+                  <CheckBox fx:id="VonA24CB" mnemonicParsing="false" onAction="#VonA24CB" text="24VonA" />
+                  <CheckBox fx:id="Von24CB" mnemonicParsing="false" onAction="#Von24CB" text="24Von" />
+               </children>
+            </VBox>
+            <VBox fx:id="vbox3" prefHeight="192.0" prefWidth="84.0" styleClass="vbox">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="86.0" text="         21-30" textFill="#dd1717" />
+                  <CheckBox fx:id="overHlimCB" mnemonicParsing="false" onAction="#overHlimCB" text="overhlim" />
+                  <CheckBox fx:id="tBoxOverCB" mnemonicParsing="false" onAction="#tBoxOverCB" text="tboxover" />
+                  <CheckBox fx:id="notEstopCB" mnemonicParsing="false" onAction="#notEstopCB" text="notEstop" />
+                  <CheckBox fx:id="overlap1CB" mnemonicParsing="false" onAction="#overlap1CB" text="overlap1" />
+                  <CheckBox fx:id="enReqECB" mnemonicParsing="false" onAction="#enReqECB" text="enReqE" />
+                  <CheckBox fx:id="enECB" mnemonicParsing="false" onAction="#enECB" text="enE" />
+                  <CheckBox fx:id="topHlimCB" mnemonicParsing="false" onAction="#topHlimCB" text="topHlim" />
+                  <CheckBox fx:id="botHlimCB" mnemonicParsing="false" onAction="#botHlimCB" text="botHlim" />
+                  <CheckBox fx:id="notTopFlimCB" mnemonicParsing="false" onAction="#notTopFlimCB" text="notTopFlim" />
+                  <CheckBox fx:id="notBotFlimCB" mnemonicParsing="false" onAction="#notBotFlimCB" text="notBotFlim" />
+               </children>
+            </VBox>
+            <VBox fx:id="vbox4" prefHeight="195.0" prefWidth="76.0" styleClass="vbox">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="79.0" text="        31-40" textFill="#dd1717" />
+                  <CheckBox fx:id="bkStowCB" mnemonicParsing="false" onAction="#bkStowCB" text="bkstow" />
+                  <CheckBox fx:id="brakeECB" mnemonicParsing="false" onAction="#brakeECB" text="brakeE" />
+                  <CheckBox fx:id="enReqACB" mnemonicParsing="false" onAction="#enReqACB" text="enReqA" />
+                  <CheckBox fx:id="enACB" mnemonicParsing="false" onAction="#enACB" text="enA" />
+                  <CheckBox fx:id="rtHlimCB" mnemonicParsing="false" onAction="#rtHlimCB" text="rtHlim" />
+                  <CheckBox fx:id="ltHlimCB" mnemonicParsing="false" onAction="#ltHlimCB" text="ltHlim" />
+                  <CheckBox fx:id="notRtFlimCB" mnemonicParsing="false" onAction="#notRtFlimCB" text="notRtFlim" />
+                  <CheckBox fx:id="notLtFlimCB" mnemonicParsing="false" onAction="#notLtFlimCB" text="notLtFlim" />
+                  <CheckBox fx:id="overlap2CB" mnemonicParsing="false" onAction="#overlap2CB" text="overlap2" />
+                  <CheckBox fx:id="brakeACB" mnemonicParsing="false" onAction="#brakeACB" text="brakeA" />
+               </children>
+            </VBox>
+            <VBox fx:id="vbox5" prefHeight="195.0" prefWidth="73.0" styleClass="vbox">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="77.0" text="       41-50" textFill="#dd1717" />
+                  <CheckBox fx:id="drStateACB" mnemonicParsing="false" onAction="#drStateACB" text="drStateA" />
+                  <CheckBox fx:id="drStateECB" mnemonicParsing="false" onAction="#drStateECB" text="drStateE" />
+                  <CheckBox fx:id="modeReqCB" mnemonicParsing="false" onAction="#modeReqCB" text="modeReq" />
+                  <CheckBox fx:id="modeCB" mnemonicParsing="false" onAction="#modeCB" text="mode" />
+                  <CheckBox fx:id="selStateCB" mnemonicParsing="false" onAction="#selStateCB" text="selState" />
+                  <CheckBox fx:id="funcStateCB" mnemonicParsing="false" onAction="#funcStateCB" text="funcState" />
+                  <CheckBox fx:id="ntpCB" mnemonicParsing="false" onAction="#ntpCB" text="ntp" />
+                  <CheckBox fx:id="timeReqCB" mnemonicParsing="false" onAction="#timeReqCB" text="timeReq" />
+                  <CheckBox fx:id="posReqACB" mnemonicParsing="false" onAction="#posReqACB" text="posReqA" />
+                  <CheckBox fx:id="posDesACB" mnemonicParsing="false" onAction="#posDesACB" text="posDesA" />
+               </children>
+            </VBox>
+            <VBox fx:id="vbox6" prefHeight="355.0" prefWidth="75.0" styleClass="vbox">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="77.0" text="        51-60" textFill="#dd1717" />
+                  <CheckBox fx:id="posActACB" mnemonicParsing="false" onAction="#posActACB" text="posActA" />
+                  <CheckBox fx:id="posReqECB" mnemonicParsing="false" onAction="#posReqECB" text="posReqE" />
+                  <CheckBox mnemonicParsing="false" text="posDesE" />
+                  <CheckBox mnemonicParsing="false" text="posActE" />
+                  <CheckBox mnemonicParsing="false" text="mVelA" />
+                  <CheckBox mnemonicParsing="false" text="mReqA" />
+                  <CheckBox mnemonicParsing="false" text="mVelE" />
+                  <CheckBox mnemonicParsing="false" text="mReqE" />
+                  <CheckBox mnemonicParsing="false" text="mTorqA" />
+                  <CheckBox mnemonicParsing="false" text="mTorqE" />
+               </children>
+            </VBox>
+            <VBox fx:id="vbox7" prefHeight="196.0" prefWidth="74.0" styleClass="vbox">
+               <children>
+                  <Label prefHeight="24.0" prefWidth="78.0" text="       61-70" textFill="#dd1717" />
+                  <CheckBox mnemonicParsing="false" text="mPosA" />
+                  <CheckBox mnemonicParsing="false" text="mPosE" />
+                  <CheckBox mnemonicParsing="false" text="supply5V" />
+                  <CheckBox mnemonicParsing="false" text="dcBusA" />
+                  <CheckBox mnemonicParsing="false" text="dcBusE" />
+                  <CheckBox mnemonicParsing="false" text="debug0" />
+                  <CheckBox mnemonicParsing="false" text="debug1" />
+                  <CheckBox mnemonicParsing="false" text="debug2" />
+                  <CheckBox mnemonicParsing="false" text="debug3" />
+                  <CheckBox mnemonicParsing="false" text="debug4" />
+               </children>
+            </VBox>
+            <VBox fx:id="vbox8" prefHeight="195.0" prefWidth="77.0">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="80.0" text="       71-80" textFill="#dd1717" />
+                  <CheckBox mnemonicParsing="false" text="crtl1A" />
+                  <CheckBox mnemonicParsing="false" text="ctrl1E" />
+                  <CheckBox mnemonicParsing="false" text="ctrl2A" />
+                  <CheckBox mnemonicParsing="false" text="ctrl2E" />
+                  <CheckBox mnemonicParsing="false" text="ctrl3A" />
+                  <CheckBox mnemonicParsing="false" text="ctrl3E" />
+                  <CheckBox mnemonicParsing="false" text="ctrl4A" />
+                  <CheckBox mnemonicParsing="false" text="ctrl4E" />
+                  <CheckBox mnemonicParsing="false" text="ctrl5A" />
+                  <CheckBox mnemonicParsing="false" text="ctrl5E" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="609.0" text="X" />
+   </children>
+</VBox>
